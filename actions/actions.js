@@ -7,13 +7,13 @@ import _ from 'lodash'
 import AppStore from '../stores/AppStore'
 
 export function getStore(callback){
-  
+
   let pages = {}
 
   Cosmic.getObjects(config, function(err, response){
-    
+
     let objects = response.objects
-    
+
     /* Globals
     ======================== */
     let globals = AppStore.data.globals
@@ -41,7 +41,7 @@ export function getStore(callback){
     // Nav
     const nav_items = response.object['nav'].metafields
     globals.nav_items = nav_items
-    
+
     AppStore.data.globals = globals
 
     /* Pages
@@ -60,6 +60,12 @@ export function getStore(callback){
     let work_items = objects.type['work']
     work_items = _.sortBy(work_items, 'order')
     AppStore.data.work_items = work_items
+
+    /* Author Items
+    ======================== */
+    let author_items = objects.type['author']
+    author_items = _.sortBy(author_items, 'order')
+    AppStore.data.author_items = author_items
     
     // Emit change
     AppStore.data.ready = true
@@ -74,10 +80,10 @@ export function getStore(callback){
 }
 
 export function getPageData(page_slug, post_slug){
-  
+
   if(!page_slug || page_slug === 'blog')
     page_slug = 'home'
-  
+
   // Get page info
   const data = AppStore.data
   const pages = data.pages
@@ -105,13 +111,18 @@ export function getPageData(page_slug, post_slug){
       const work_item = _.findWhere(work_items, { slug: post_slug })
       page.title = work_item.title
     }
+    if(page_slug === 'author'){
+      const author_items = data.author_items
+      const author_item = _.findWhere(author_items, { slug: post_slug })
+      page.title = author_item.title
+    }
   }
   AppStore.data.page = page
   AppStore.emitChange()
 }
 
 export function getMoreItems(){
-  
+
   AppStore.data.loading = true
   AppStore.emitChange()
 
