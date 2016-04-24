@@ -12,7 +12,7 @@ export default class BlogList extends Component {
   }
 
   render(){
-    
+
     let data = this.props.data
     let item_num = data.item_num
     let articles = data.articles
@@ -35,17 +35,17 @@ export default class BlogList extends Component {
     }
 
     articles = _.take(articles, item_num)
-    
+
     let articles_html = articles.map(( article ) => {
       let date_obj = new Date(article.created)
-      let created = (date_obj.getMonth()+1) + '/' + date_obj.getDate() + '/' + date_obj.getFullYear()
+      let created = date_obj.getFullYear() + '/' + (date_obj.getMonth()+1) + '/' + date_obj.getDate() 
       return (
         <div key={ 'key-' + article.slug }>
           <div className="post-preview">
             <h2 className="post-title pointer">
               <Link to={ '/blog/' + article.slug } onClick={ this.scrollTop }>{ article.title }</Link>
             </h2>
-            <p className="post-meta">Posted by <a href="https://cosmicjs.com" target="_blank">Cosmic JS</a> on { created }</p>
+            <p className="post-meta">{ created }</p>
           </div>
           <hr/>
         </div>
