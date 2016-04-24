@@ -66,7 +66,13 @@ export function getStore(callback){
     let author_items = objects.type['author']
     author_items = _.sortBy(author_items, 'order')
     AppStore.data.author_items = author_items
-    
+
+    /* Title Items
+    ======================== */
+    let title_items = objects.type['title']
+    title_items = _.sortBy(title_items, 'order')
+    AppStore.data.title_items = title_items
+
     // Emit change
     AppStore.data.ready = true
     AppStore.emitChange()
@@ -115,6 +121,11 @@ export function getPageData(page_slug, post_slug){
       const author_items = data.author_items
       const author_item = _.findWhere(author_items, { slug: post_slug })
       page.title = author_item.title
+    }
+    if(page_slug === 'title'){
+      const title_items = data.title_items
+      const title_item = _.findWhere(title_items, { slug: post_slug })
+      page.title = title_item.title
     }
   }
   AppStore.data.page = page

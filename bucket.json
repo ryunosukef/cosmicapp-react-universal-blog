@@ -50,6 +50,20 @@
           "metafields_title": 1,
           "metafields_key": 1
         }
+      },
+      {
+        "title": "Title",
+        "slug": "title",
+        "singular": "title",
+        "help_text": null,
+        "metafields": [],
+        "options": {
+          "slug_field": 1,
+          "content_editor": 1,
+          "add_metafields": 1,
+          "metafields_title": 1,
+          "metafields_key": 1
+        }
       }
     ],
     "links": [
@@ -104,6 +118,26 @@
         "order": null
       },
       {
+        "_id": "571c8d6e0ecdfc1f6100004d",
+        "order": 0,
+        "slug": "okaasan10-to-boku",
+        "title": "おかあさん（10）と僕。",
+        "content": "<p><span style=\"color: rgb(0, 0, 0); font-family: monospace; font-size: 13px; line-height: normal;\">ある日おかあさんがロリ少女に!!</span><br></p><p><span style=\"color: rgb(0, 0, 0); font-family: monospace; font-size: 13px; line-height: normal;\">団地に引っ越してきた小4のハルがその日、転校先の学校から帰ってくると、おかあさんは10歳になっていた…。何があってもけなげにがんばる、ハルとおかあさん（10）のハートウォーム･ストーリー。</span><span style=\"color: rgb(0, 0, 0); font-family: monospace; font-size: 13px; line-height: normal;\"><br></span></p><p><span style=\"color: rgb(0, 0, 0); font-family: monospace; font-size: 13px; line-height: normal;\"><br></span></p><p><span style=\"color: rgb(0, 0, 0); font-family: monospace; font-size: 13px; line-height: normal;\"><img src=\"https://cache.mincomi.jp/episode/contents/episode/title/14/thumb/thumb_l.jpg\" style=\"width: 600px;\"><br></span></p><p><span style=\"color: rgb(0, 0, 0); font-family: monospace; font-size: 13px; line-height: normal;\"><br></span></p><p><span style=\"color: rgb(0, 0, 0); font-family: monospace; font-size: 13px; line-height: normal;\"><a href=\"https://www.mincomi.jp/title/?title=328009\" target=\"_blank\">https://www.mincomi.jp/title/?title=328009</a><br></span></p>",
+        "metafields": [],
+        "bucket": "5718de0593910e4632000033",
+        "type_slug": "title",
+        "created": "2016-04-24T09:10:06.871Z",
+        "user_id": "5718dd6693910e4632000032",
+        "options": {
+          "slug_field": 1,
+          "content_editor": 1,
+          "add_metafields": 1,
+          "metafields_title": 1,
+          "metafields_key": 1
+        },
+        "status": "published"
+      },
+      {
         "_id": "571c5c760ecdfc1f61000047",
         "order": 0,
         "slug": "souda-surume",
@@ -150,6 +184,26 @@
         "user_id": "5718dd6693910e4632000032",
         "options": null,
         "order": 0
+      },
+      {
+        "_id": "571c8d160ecdfc1f6100004c",
+        "order": 1,
+        "slug": "birthday-gift",
+        "title": "BIRTHDAY GIFT",
+        "content": "<p><span style=\"color: rgb(0, 0, 0); font-family: monospace; font-size: 13px; line-height: normal;\">生き残った人類に残された道は?</span><br></p><p><span style=\"color: rgb(0, 0, 0); font-family: monospace; font-size: 13px; line-height: normal;\">◆ライトノベル作品◆ 〝生殖機能が失われた世界〟で今、人間の歴史が終わろうとしている。《革命式》の行使者・久良岐蔵名は、霧咲ランジェによって共同体「カンディード」に誘われ、チーム・エスピスのメンバーと共に戦う決意をする。</span><span style=\"color: rgb(0, 0, 0); font-family: monospace; font-size: 13px; line-height: normal;\"><br></span></p><p><span style=\"color: rgb(0, 0, 0); font-family: monospace; font-size: 13px; line-height: normal;\"><br></span></p><p><span style=\"color: rgb(0, 0, 0); font-family: monospace; font-size: 13px; line-height: normal;\"><img src=\"https://cache.mincomi.jp/episode/contents/episode/title/12501/thumb/thumb_l.jpg\" style=\"width: 600px;\"><br></span></p><p><span style=\"color: rgb(0, 0, 0); font-family: monospace; font-size: 13px; line-height: normal;\"><br></span></p><p><span style=\"color: rgb(0, 0, 0); font-family: monospace; font-size: 13px; line-height: normal;\"><a href=\"https://www.mincomi.jp/title/?title=342295\" target=\"_blank\">https://www.mincomi.jp/title/?title=342295</a><br></span></p>",
+        "metafields": [],
+        "bucket": "5718de0593910e4632000033",
+        "type_slug": "title",
+        "created": "2016-04-24T09:08:38.633Z",
+        "user_id": "5718dd6693910e4632000032",
+        "options": {
+          "slug_field": 1,
+          "content_editor": 1,
+          "add_metafields": 1,
+          "metafields_title": 1,
+          "metafields_key": 1
+        },
+        "status": "published"
       },
       {
         "_id": "571c5c430ecdfc1f61000046",
@@ -276,6 +330,66 @@
         "order": 1
       },
       {
+        "_id": "571c8cbd0ecdfc1f6100004b",
+        "order": 2,
+        "slug": "kodomo-okutan-title",
+        "title": "こども奥たん",
+        "content": "<p><span style=\"color: rgb(0, 0, 0); font-family: monospace; font-size: 13px; line-height: normal;\">「こども」で「奥たん」って??</span></p><p><span style=\"color: rgb(0, 0, 0); font-family: monospace; font-size: 13px; line-height: normal;\">雨が降ってきた。ゲーム会社勤務のグラフィッカー・春風幸太郎(コタロー)の職場まで傘を持って迎えに来たのは、かわいらしい幼女だった…。</span><br></p><p><span style=\"color: rgb(0, 0, 0); font-family: monospace; font-size: 13px; line-height: normal;\"><br></span></p><p><span style=\"color: rgb(0, 0, 0); font-family: monospace; font-size: 13px; line-height: normal;\"><img src=\"https://cache.mincomi.jp/episode/contents/episode/title/18/thumb/thumb_l.jpg\" style=\"width: 600px;\"><br></span></p><p><span style=\"color: rgb(0, 0, 0); font-family: monospace; font-size: 13px; line-height: normal;\"><br></span></p><p><span style=\"color: rgb(0, 0, 0); font-family: monospace; font-size: 13px; line-height: normal;\"><a href=\"https://www.mincomi.jp/title/?title=334622\" target=\"_blank\">https://www.mincomi.jp/title/?title=334622</a><br></span></p>",
+        "metafields": [],
+        "bucket": "5718de0593910e4632000033",
+        "type_slug": "title",
+        "created": "2016-04-24T09:07:09.806Z",
+        "user_id": "5718dd6693910e4632000032",
+        "options": {
+          "slug_field": 1,
+          "content_editor": 1,
+          "add_metafields": 1,
+          "metafields_title": 1,
+          "metafields_key": 1
+        },
+        "status": "published"
+      },
+      {
+        "_id": "571c8ac90ecdfc1f6100004a",
+        "order": 2,
+        "slug": "title",
+        "title": "Title",
+        "content": "",
+        "metafields": [
+          {
+            "edit": 1,
+            "value": "3d0801f0-09be-11e6-930a-f3d3a1c3c056.jpg",
+            "key": "hero",
+            "title": "Hero",
+            "type": "file",
+            "children": false
+          },
+          {
+            "edit": 1,
+            "value": "Title List",
+            "key": "headline",
+            "title": "Headline",
+            "type": "text",
+            "children": false
+          },
+          {
+            "edit": 1,
+            "value": "",
+            "key": "subheadline",
+            "title": "Subheadline",
+            "type": "text",
+            "children": false
+          }
+        ],
+        "bucket": "5718de0593910e4632000033",
+        "type_slug": "page",
+        "created": "2016-04-24T08:58:49.095Z",
+        "user_id": "5718dd6693910e4632000032",
+        "options": null,
+        "status": "published",
+        "modified": "2016-04-24T09:01:32.733Z"
+      },
+      {
         "_id": "571c5c220ecdfc1f61000045",
         "order": 2,
         "slug": "azuma-kouji",
@@ -296,46 +410,6 @@
         "status": "published"
       },
       {
-        "_id": "571c55d10ecdfc1f61000041",
-        "order": 2,
-        "slug": "author",
-        "title": "Author",
-        "content": "<p>作家の一覧</p>",
-        "metafields": [
-          {
-            "edit": 1,
-            "value": "3cf11e90-09be-11e6-930a-f3d3a1c3c056.jpg",
-            "key": "hero",
-            "title": "Hero",
-            "type": "file",
-            "children": false
-          },
-          {
-            "edit": 1,
-            "value": "作家一覧",
-            "key": "headline",
-            "title": "Headline",
-            "type": "text",
-            "children": false
-          },
-          {
-            "edit": 1,
-            "value": "",
-            "key": "subheadline",
-            "title": "Subheadline",
-            "type": "text",
-            "children": false
-          }
-        ],
-        "bucket": "5718de0593910e4632000033",
-        "type_slug": "page",
-        "created": "2016-04-24T05:12:49.884Z",
-        "user_id": "5718dd6693910e4632000032",
-        "options": null,
-        "status": "published",
-        "modified": "2016-04-24T05:24:15.274Z"
-      },
-      {
         "_id": "571c253d0ecdfc1f61000030",
         "old_id": "5718de8b93910e4632000038",
         "bucket": "5718de0593910e4632000033",
@@ -348,6 +422,14 @@
             "value": "",
             "key": "home",
             "title": "Home",
+            "type": "text",
+            "children": false
+          },
+          {
+            "edit": 1,
+            "value": "title",
+            "key": "title",
+            "title": "Title",
             "type": "text",
             "children": false
           },
@@ -387,7 +469,7 @@
           "metafields_key": 0
         },
         "order": 2,
-        "modified": "2016-04-24T05:27:05.881Z",
+        "modified": "2016-04-24T08:59:51.868Z",
         "status": "published"
       },
       {
@@ -432,6 +514,46 @@
           "metafields_key": 1
         },
         "status": "published"
+      },
+      {
+        "_id": "571c55d10ecdfc1f61000041",
+        "order": 3,
+        "slug": "author",
+        "title": "Author",
+        "content": "<p>作家の一覧</p>",
+        "metafields": [
+          {
+            "edit": 1,
+            "value": "3cf11e90-09be-11e6-930a-f3d3a1c3c056.jpg",
+            "key": "hero",
+            "title": "Hero",
+            "type": "file",
+            "children": false
+          },
+          {
+            "edit": 1,
+            "value": "作家一覧",
+            "key": "headline",
+            "title": "Headline",
+            "type": "text",
+            "children": false
+          },
+          {
+            "edit": 1,
+            "value": "",
+            "key": "subheadline",
+            "title": "Subheadline",
+            "type": "text",
+            "children": false
+          }
+        ],
+        "bucket": "5718de0593910e4632000033",
+        "type_slug": "page",
+        "created": "2016-04-24T05:12:49.884Z",
+        "user_id": "5718dd6693910e4632000032",
+        "options": null,
+        "status": "published",
+        "modified": "2016-04-24T05:24:15.274Z"
       },
       {
         "_id": "571c253d0ecdfc1f61000032",
@@ -479,6 +601,36 @@
         "order": 3
       },
       {
+        "_id": "571c5abb0ecdfc1f61000043",
+        "order": 4,
+        "slug": "shoji-haruka",
+        "title": "祥寺はるか",
+        "content": "<p><span style=\"color: rgb(0, 0, 0); font-family: monospace; font-size: 13px; line-height: normal;\">ドＭで翼と十字と擬似流血好きで脳内中二病な人。 でも猫スキー。</span><br></p>",
+        "metafields": [
+          {
+            "edit": 1,
+            "value": "https://cache.mincomi.jp/episode/contents/author/1/author.jpg",
+            "key": "imageUrl",
+            "title": "imageUrl",
+            "type": "text",
+            "children": false
+          }
+        ],
+        "bucket": "5718de0593910e4632000033",
+        "type_slug": "author",
+        "created": "2016-04-24T05:33:47.850Z",
+        "user_id": "5718dd6693910e4632000032",
+        "options": {
+          "slug_field": 1,
+          "content_editor": 1,
+          "add_metafields": 1,
+          "metafields_title": 1,
+          "metafields_key": 1
+        },
+        "status": "published",
+        "modified": "2016-04-24T05:34:13.986Z"
+      },
+      {
         "_id": "571c253d0ecdfc1f61000039",
         "old_id": "5718de8b93910e463200003a",
         "bucket": "5718de0593910e4632000033",
@@ -515,7 +667,7 @@
         "created": "2016-04-24T01:45:33.909Z",
         "user_id": "5718dd6693910e4632000032",
         "options": null,
-        "order": 3
+        "order": 4
       },
       {
         "_id": "571c253d0ecdfc1f6100003b",
@@ -554,37 +706,7 @@
         "created": "2016-04-24T01:45:33.945Z",
         "user_id": "5718dd6693910e4632000032",
         "options": null,
-        "order": 4
-      },
-      {
-        "_id": "571c5abb0ecdfc1f61000043",
-        "order": 4,
-        "slug": "shoji-haruka",
-        "title": "祥寺はるか",
-        "content": "<p><span style=\"color: rgb(0, 0, 0); font-family: monospace; font-size: 13px; line-height: normal;\">ドＭで翼と十字と擬似流血好きで脳内中二病な人。 でも猫スキー。</span><br></p>",
-        "metafields": [
-          {
-            "edit": 1,
-            "value": "https://cache.mincomi.jp/episode/contents/author/1/author.jpg",
-            "key": "imageUrl",
-            "title": "imageUrl",
-            "type": "text",
-            "children": false
-          }
-        ],
-        "bucket": "5718de0593910e4632000033",
-        "type_slug": "author",
-        "created": "2016-04-24T05:33:47.850Z",
-        "user_id": "5718dd6693910e4632000032",
-        "options": {
-          "slug_field": 1,
-          "content_editor": 1,
-          "add_metafields": 1,
-          "metafields_title": 1,
-          "metafields_key": 1
-        },
-        "status": "published",
-        "modified": "2016-04-24T05:34:13.986Z"
+        "order": 5
       },
       {
         "_id": "571c5a640ecdfc1f61000042",
