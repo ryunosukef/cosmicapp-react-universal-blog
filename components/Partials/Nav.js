@@ -10,10 +10,10 @@ export default class Nav extends Component {
   }
 
   render(){
-    
+
     const data = this.props.data
     const nav_items = data.globals.nav_items
-    
+
     // Prevent initial null
     if(!nav_items){
       return <div></div>
@@ -37,7 +37,7 @@ export default class Nav extends Component {
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
             </button>
-            <a className="navbar-brand" target="_blank" href="https://cosmicjs.com">Cosmic JS</a>
+            <a className="navbar-brand" target="_blank" href="https://www.mincomi.jp">Magazine</a>
           </div>
 
           <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
