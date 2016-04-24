@@ -4,8 +4,8 @@ import React, { Component } from 'react'
 export default class Footer extends Component {
 
   render(){
-    
-    const data = this.props.data  
+
+    const data = this.props.data
     let footer_text
     if(data.globals.text){
       footer_text = data.globals.text.footer_text
@@ -31,14 +31,6 @@ export default class Footer extends Component {
                     <span className="fa-stack fa-lg">
                       <i className="fa fa-circle fa-stack-2x"></i>
                       <i className="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                    </span>
-                  </a>
-                </li>
-                <li>
-                  <a href={ facebook } target="_blank">
-                    <span className="fa-stack fa-lg">
-                      <i className="fa fa-circle fa-stack-2x"></i>
-                      <i className="fa fa-facebook fa-stack-1x fa-inverse"></i>
                     </span>
                   </a>
                 </li>
