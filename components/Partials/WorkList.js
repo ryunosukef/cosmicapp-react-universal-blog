@@ -15,7 +15,7 @@ export default class WorkList extends Component {
   }
 
   render(){
-    
+
     let data = this.props.data
     let item_num = data.item_num
     let work_items = data.work_items
@@ -38,17 +38,18 @@ export default class WorkList extends Component {
     }
 
     work_items = _.take(work_items, item_num)
-    
+
     let articles_html = work_items.map(( work_item ) => {
       let date_obj = new Date(work_item.created)
-      let created = (date_obj.getMonth()+1) + '/' + date_obj.getDate() + '/' + date_obj.getFullYear()
+      let created = date_obj.getFullYear() + '/' + (date_obj.getMonth()+1) + '/' + date_obj.getDate()
       return (
         <div key={ 'key-' + work_item.slug }>
           <div className="post-preview">
             <h2 className="post-title pointer">
               <Link to={ '/work/' + work_item.slug } onClick={ this.scrollTop }>{ work_item.title }</Link>
             </h2>
-            <p className="post-meta">Posted by <a href="https://cosmicjs.com" target="_blank">Cosmic JS</a> on { created }</p>
+            <div dangerouslySetInnerHTML={ {__html: work_item.content } }></div>
+            <p className="post-meta">{ created }</p>
           </div>
           <hr/>
         </div>
